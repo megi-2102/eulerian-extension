@@ -4,6 +4,7 @@ This project is a Python application that allows users to test and visualize dir
 
 It uses Tkinter for the GUI, NetworkX for graph operations, and Matplotlib for visualization.
 
+
 ♦ Features ♦
 
 • Check if a directed graph is Eulerian (each node has equal in-degree and out-degree, and the graph is weakly connected).
@@ -16,6 +17,7 @@ It uses Tkinter for the GUI, NetworkX for graph operations, and Matplotlib for v
 		
 • GUI interface with predefined graphs and custom graph input.
 
+
 ♦ Installation ♦
 
 1. Clone this repository from GitHub.
@@ -24,10 +26,12 @@ It uses Tkinter for the GUI, NetworkX for graph operations, and Matplotlib for v
 		pip install matplotlib networkx
 		(Tkinter is included with most Python installations).
 
+
 ♦ Usage ♦
 
 Run the program with:
 python EulerianExtension.py
+
 
 ♦ Steps: ♦
 
@@ -39,11 +43,13 @@ python EulerianExtension.py
 
 4. The graph will be visualized before and after making it Eulerian.
 
+
 ♦ Example ♦
 
 	Input Graph: A → B → C → D
 	Output Graph: A → B → C → D → A
 	The program adds the minimal edge D → A to make the graph Eulerian.
+
 
 ♦ Technologies ♦
 
@@ -55,6 +61,7 @@ python EulerianExtension.py
 		
 • NetworkX
 
+
 ♦ Future Improvements ♦
 
 • Save results as images or JSON.
@@ -62,6 +69,7 @@ python EulerianExtension.py
 • Add support for weighted graphs.
 		
 • Use advanced heuristics for very large graphs.
+
 
 ♦ License ♦
 

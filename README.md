@@ -1,22 +1,22 @@
 **Eulerian Graph Tester**
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 This project is a Python application that allows users to test and visualize directed graphs and transform them into Eulerian graphs by adding the minimal number of edges.
 
 It uses Tkinter for the GUI, NetworkX for graph operations, and Matplotlib for visualization.
 
-**Features**
+♦ Features ♦
 
-Check if a directed graph is Eulerian (each node has equal in-degree and out-degree, and the graph is weakly connected).
+• Check if a directed graph is Eulerian (each node has equal in-degree and out-degree, and the graph is weakly connected).
 		
-Identify unbalanced nodes and automatically add edges to make the graph Eulerian.
+• Identify unbalanced nodes and automatically add edges to make the graph Eulerian.
 		
-Uses brute-force for small graphs (optimal solution) and a greedy approach for larger graphs (faster).
+• Uses brute-force for small graphs (optimal solution) and a greedy approach for larger graphs (faster).
 		
-Visualize graphs before and after transformation.
+• Visualize graphs before and after transformation.
 		
-GUI interface with predefined graphs and custom graph input.
+• GUI interface with predefined graphs and custom graph input.
 
-**Installation**
+♦ Installation ♦
 
 1. Clone this repository from GitHub.
 
@@ -24,12 +24,12 @@ GUI interface with predefined graphs and custom graph input.
 		pip install matplotlib networkx
 		(Tkinter is included with most Python installations).
 
-**Usage**
+♦ Usage ♦
 
 Run the program with:
 python EulerianExtension.py
 
-**Steps:**
+♦ Steps: ♦
 
 1. When running the program, a GUI window will appear.
 
@@ -39,30 +39,30 @@ python EulerianExtension.py
 
 4. The graph will be visualized before and after making it Eulerian.
 
-**Example**
+♦ Example ♦
 
-Input Graph: A → B → C → D
-Output Graph: A → B → C → D → A
-The program adds the minimal edge D → A to make the graph Eulerian.
+	Input Graph: A → B → C → D
+	Output Graph: A → B → C → D → A
+	The program adds the minimal edge D → A to make the graph Eulerian.
 
-**Technologies**
+♦ Technologies ♦
 
-		Python 3.x
+• Python 3.x
 		
-		Tkinter
+• Tkinter
 		
-		Matplotlib
+• Matplotlib
 		
-		NetworkX
+• NetworkX
 
-**Future Improvements**
+♦ Future Improvements ♦
 
-		Save results as images or JSON.
+• Save results as images or JSON.
 		
-		Add support for weighted graphs.
+• Add support for weighted graphs.
 		
-		Use advanced heuristics for very large graphs.
+• Use advanced heuristics for very large graphs.
 
-**License**
+♦ License ♦
 
 This project is open-source under the MIT License.

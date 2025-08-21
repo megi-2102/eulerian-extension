@@ -4,8 +4,6 @@ This project is a Python application that allows users to test and visualize dir
 
 It uses Tkinter for the GUI, NetworkX for graph operations, and Matplotlib for visualization.
 
-
-
 ♦ Features ♦
 
 • Check if a directed graph is Eulerian (each node has equal in-degree and out-degree, and the graph is weakly connected).

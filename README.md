@@ -6,15 +6,15 @@ It uses Tkinter for the GUI, NetworkX for graph operations, and Matplotlib for v
 
 **Features**
 
-		Check if a directed graph is Eulerian (each node has equal in-degree and out-degree, and the graph is weakly connected).
+	Check if a directed graph is Eulerian (each node has equal in-degree and out-degree, and the graph is weakly connected).
 		
-		Identify unbalanced nodes and automatically add edges to make the graph Eulerian.
+	Identify unbalanced nodes and automatically add edges to make the graph Eulerian.
 		
-		Uses brute-force for small graphs (optimal solution) and a greedy approach for larger graphs (faster).
+	Uses brute-force for small graphs (optimal solution) and a greedy approach for larger graphs (faster).
 		
-		Visualize graphs before and after transformation.
+	Visualize graphs before and after transformation.
 		
-		GUI interface with predefined graphs and custom graph input.
+	GUI interface with predefined graphs and custom graph input.
 
 **Installation**
 
